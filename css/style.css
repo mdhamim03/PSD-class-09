@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Cummon Css Section Css Start*/
+body{
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*//Cummon Css Section Css End*/
+/*nav Section Css Start*/
+#nav_menu{
+    background-color: #02918c;
+}
+.logo{
+    width: 25%;
+}
+.menu{
+    width: 75%;
+    text-align: right;
+}
+.logo img{
+    display: block;
+    padding: 25px 0;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    padding: 25px 25px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .3s linear;
+
+}
+.menu ul li:hover a{
+    color: rgb(212, 211, 211);
+}
+/*//nav Section Css End*/
+/*banner Section Css Start*/
+ #banner_sec{
+     background-image: url(../img/banner.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 728px;
+     text-align: center;
+     position: relative;
+    z-index: 1;
+ }
+ .banner_item {
+    color: #fff;
+    width: 100%;
+}
+ #banner_sec .container,
+ #banner_sec .container .row{
+     height: 100%;
+ }
+ #banner_sec .container .row{
+     align-items: center;
+ }
+ #banner_sec::after{
+     content: '';
+     width: 100%;
+     height: 100%;
+     background-color: #000;
+     opacity: .39;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+ }
+
+
+ 
+ .banner_item h4{
+     font-size: 30px;
+     line-height: 25px;
+ }
+ .banner_item h1{
+     font-size: 66px;
+     line-height: 75px;
+     letter-spacing: 30px;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+ .banner_item p{
+     font-size: 18px;
+     line-height: 33px;
+ }
+ .banner_item img{
+     display: block;
+     margin: auto;
+     padding: 53px 0;
+ }
+ .banner_item a {
+    width: 196px;
+    font-size: 14px;
+    font-weight: 700;
+	display: inline-block;
+	padding: 19px 34px;
+	background-color: #cfc91d;
+	color: #000;
+}
+/*//banner Section Css End*/
